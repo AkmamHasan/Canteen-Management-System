@@ -1,0 +1,29 @@
+create database project;
+
+create table customer(
+name varchar(15),
+id int(5) primary key
+
+);
+
+
+create table employee(
+name varchar(15),
+id int(5) primary key,
+adress varchar(15),
+salary int(5),
+image blob
+
+);
+
+create table purchase(
+Product varchar(15),
+Quantity double,
+Price double,
+Date date
+);
+
+create table selll(
+count int(5) not null auto_increment primary key,
+sell double
+);
